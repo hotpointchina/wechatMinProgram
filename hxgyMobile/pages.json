@@ -1,0 +1,194 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"backgroundColor": "#FFFFFF",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/index/event",
+			"style": {
+				"navigationBarTitleText": "活动",
+				"backgroundColor": "#FFFFFF",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/index/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"backgroundColor": "#FFFFFF",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path": "pages/index/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"backgroundColor": "#FFFFFF",
+				"navigationStyle": "default"
+			}
+		}
+
+	],
+	
+	
+	
+	"subPackages": [
+		{
+			"root": "pages/event",
+			"pages": [
+				{
+					"path": "crowdfunding/detail",
+					"style": {
+						"navigationBarTitleText": "众筹详情",
+						"navigationBarTextStyle":"white",
+						"navigationBarBackgroundColor":"#fff",
+						"enablePullDownRefresh": true,
+						"navigationStyle": "default"
+					}
+				}
+				,{
+					"path": "oldClothesRecycling/detail",
+					"style": {
+						"navigationBarTitleText": "旧衣回收详情",
+						"navigationBarTextStyle":"white",
+						"navigationBarBackgroundColor":"#fff",
+						"enablePullDownRefresh": true,
+						"navigationStyle": "default"
+					}
+				}
+				,{
+					"path": "publicBenefitActivities/detail",
+					"style": {
+						"navigationBarTitleText": "公益活动详情",
+						"navigationBarTextStyle":"white",
+						"navigationBarBackgroundColor":"#fff",
+						"enablePullDownRefresh": true,
+						"navigationStyle": "default"
+					}
+				}
+				,{
+					"path": "unionActivities/detail",
+					"style": {
+						"navigationBarTitleText": "工会活动详情",
+						"navigationBarTextStyle":"white",
+						"navigationBarBackgroundColor":"#fff",
+						"enablePullDownRefresh": true,
+						"navigationStyle": "default"
+					}
+				}
+			]
+		}
+		,{
+			"root": "pages/me",
+			"pages": [
+				{
+					"path": "me",
+					"style": {
+							"navigationBarTitleText": "我的",
+							"navigationBarTextStyle":"white",
+							"navigationBarBackgroundColor":"#fff",
+							"enablePullDownRefresh": true,
+							"navigationStyle": "default"
+						}
+				}
+			]
+		}
+		,{
+			"root": "pages/message",
+			"pages": [
+				{
+					"path": "detail",
+					"style": {
+							"navigationBarTitleText": "消息",
+							"navigationBarTextStyle":"white",
+							"navigationBarBackgroundColor":"#fff",
+							"enablePullDownRefresh": true,
+							"navigationStyle": "default"
+						}
+				}
+			]
+		}
+		,{
+			"root": "pages/order",
+			"pages": [
+				{
+					"path": "orderList",
+					"style": {
+							"navigationBarTitleText": "订单",
+							"navigationBarTextStyle":"white",
+							"navigationBarBackgroundColor":"#fff",
+							"enablePullDownRefresh": true,
+							"navigationStyle": "default"
+						}
+				}
+			]
+		}
+		,{
+			"root": "pages/news",
+			"pages": [
+				{
+					"path": "detail",
+					"style": {
+							"navigationBarTitleText": "新闻详情",
+							"navigationBarTextStyle":"white",
+							"navigationBarBackgroundColor":"#fff",
+							"enablePullDownRefresh": true,
+							"navigationStyle": "default"
+						}
+				}
+			]
+		}
+	],
+		
+		
+		
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "华夏公益",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		},
+		"navigationStyle":"custom"
+	},
+	
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#2e9a9f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabBar/home-gray.png",
+				"selectedIconPath": "static/tabBar/home-color.png",
+				"text": "首页"
+			}, 
+			{
+				"pagePath": "pages/index/event",
+				"iconPath": "static/tabBar/event-gray.png",
+				"selectedIconPath": "static/tabBar/event-color.png",
+				"text": "活动"
+			},
+			{
+				"pagePath": "pages/index/message",
+				"iconPath": "static/tabBar/message-gray.png",
+				"selectedIconPath": "static/tabBar/message-color.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/index/me",
+				"iconPath": "static/tabBar/me-gray.png",
+				"selectedIconPath": "static/tabBar/me-color.png",
+				"text": "我的"
+			}
+		]
+	}
+	
+	
+}
