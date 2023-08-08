@@ -1,0 +1,13 @@
+@mixin row{
+	display: flex;
+	flex-direction: row;
+}
+@mixin column{
+	display: flex;
+	flex-direction: column;
+}
+@mixin fontfamily{
+	font-family: ' PingFang SC', 'Noto Sans Han', 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+}
+
+$defaultbgcolor: #f2f1f7;

@@ -1,0 +1,12 @@
+<template>
+	<view>
+		订单列表
+	</view>
+</template>
+
+
+<script setup name="orderList">
+</script>
+
+<style lang="scss" scoped>
+</style>
